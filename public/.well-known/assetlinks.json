@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.pinderis.online",
+      "sha256_cert_fingerprints": [
+        "16:82:3C:7C:97:46:83:EC:78:B8:53:86:D3:E1:18:F0:AE:02:9F:63:39:11:55:36:25:60:16:95:1B:2F:58:8F"
+      ]
+    }
+  }
+]
