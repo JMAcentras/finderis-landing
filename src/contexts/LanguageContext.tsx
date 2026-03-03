@@ -23,7 +23,7 @@ const translations = {
     support: 'Pagalba ir kontaktai',
     
     // Footer
-    footerDescription: 'Rask savo tikrąją meilę su išmaniąja pažinčių programa, kuri jungia širdis ir kuria tikrus ryšius.',
+    footerDescription: 'Rask meilę, draugų ir bendraminčių su išmaniąja programėle, kuri jungia žmones ir kuria tikrus ryšius.',
     allRightsReserved: 'Visos teisės saugomos.',
     followUs: 'Sekite mus',
     
@@ -54,7 +54,7 @@ const translations = {
     support: 'Support & Contact',
     
     // Footer
-    footerDescription: 'Find your true love with our smart dating app that connects hearts and creates genuine relationships.',
+    footerDescription: 'Find love, friends, and like-minded people with our smart app that connects people and builds genuine relationships.',
     allRightsReserved: 'All rights reserved.',
     followUs: 'Follow us',
     

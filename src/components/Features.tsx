@@ -6,7 +6,7 @@ const Features = () => {
     {
       icon: <Sparkles className="h-8 w-8" />,
       title: "Išmanus derinimas",
-      description: "Pažangūs algoritmai analizuoja jūsų pomėgius ir siūlo tobulus partnerius, su kuriais tikrai sutapsite.",
+      description: "Pažangūs algoritmai analizuoja jūsų pomėgius ir siūlo žmones, su kuriais jus sieja bendri interesai ir vertybės.",
       iconBgClass: "bg-gradient-to-br from-[#2D526B]/20 to-[#FA5B3B]/24"
     },
     {
@@ -37,7 +37,7 @@ const Features = () => {
             Kodėl pasirinkti Finderis?
           </h2>
           <p className="text-xl text-[#24465e] max-w-2xl mx-auto">
-            Sukūrėme tobulą pažinčių patirtį, kuri padės jums rasti tikrą meilę
+            Sukūrėme išmanią patirtį, kuri padės rasti meilę, draugų ir bendraminčių
           </p>
         </div>
         

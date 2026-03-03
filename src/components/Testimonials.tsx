@@ -10,19 +10,19 @@ const Testimonials = () => {
     {
       name: "Aušra M.",
       age: 28,
-      text: "Per Finderis sutikau savo gyvenimo meilę! Po 3 mėnesių bendravio mes persikėlėme gyventi kartu. Ačiū už šią nuostabią programėlę!",
+      text: "Per Finderis sutikau savo gyvenimo meilę! Po 3 mėnesių bendravimo mes persikėlėme gyventi kartu. Ačiū už šią nuostabią programėlę!",
       location: "Vilnius"
     },
     {
       name: "Tomas K.",
       age: 32,
-      text: "Niekada netikėjau pažinčių programėlėmis, bet Finderis mane pakeisė. Čia sutikau savo žmoną, su kuria dabar auginame dukrytę.",
+      text: "Iš pradžių ieškojau tik naujų pažinčių, o galiausiai susiradau puikių draugų ir bendraminčių aktyviam laisvalaikiui.",
       location: "Kaunas"
     },
     {
       name: "Gabija L.",
       age: 25,
-      text: "Finderis tikrai veikia! Puikus algoritmas ir saugus bendravimas. Po dviejų savaičių jau turėjau pirmą pasimatymą su dabar mano vaikinu.",
+      text: "Finderis tikrai veikia! Puikus algoritmas ir saugus bendravimas. Čia sutikau žmonių, su kuriais mus jungia tie patys pomėgiai ir vertybės.",
       location: "Klaipėda"
     }
   ];

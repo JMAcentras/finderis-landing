@@ -25,12 +25,12 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-[#24465e] mb-4 animate-fade-in font-medium">
-          Rask savo tikrąją meilę
+          Rask meilę, draugų ir bendraminčių
         </p>
         
         <p className="text-lg md:text-xl text-[#1f3d52]/90 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in">
-          Išmanus pažinčių taikomoji programa, kuri jungia širdis ir kuria tikrus ryšius. 
-          Saugus, paprastas ir veiksmingus būdas rasti savo gyvenimo žmogų.
+          Išmani pažinčių ir bendravimo programėlė, kuri padeda atrasti meilę, naujus draugus ir žmones su panašiais pomėgiais.
+          Saugus, paprastas ir veiksmingas būdas kurti tikrus ryšius.
         </p>
         
         {/* Mygtukai su atnaujintomis spalvomis */}
