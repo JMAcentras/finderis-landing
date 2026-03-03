@@ -8,10 +8,17 @@ const Hero = () => {
       <div className="pointer-events-none absolute -top-16 -left-16 h-72 w-72 rounded-full bg-[#FA5B3B]/24 blur-3xl"></div>
       <div className="pointer-events-none absolute -top-14 right-10 h-64 w-64 rounded-full bg-[#FFCC00]/24 blur-3xl"></div>
       <div className="pointer-events-none absolute bottom-8 right-16 h-72 w-72 rounded-full bg-[#34C759]/22 blur-3xl"></div>
+      <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+        <div className="h-[420px] w-[420px] md:h-[540px] md:w-[540px] rounded-full bg-white/28 blur-3xl"></div>
+      </div>
 
-      <div className="relative z-10 text-center max-w-4xl mx-auto brand-panel p-8 md:p-12">
+      <div className="relative z-10 text-center max-w-4xl mx-auto py-10">
+        <div className="inline-flex items-center gap-2 rounded-full border border-[#2D526B]/25 bg-white/35 px-4 py-2 text-sm font-semibold text-[#1f3d52] backdrop-blur-sm mb-8">
+          Finderis
+        </div>
+
         {/* Logo */}
-        <div className="mb-8 flex justify-center">
+        <div className="mb-6 flex justify-center">
           <img 
             src="/logo.svg" 
             alt="Finderis logo" 
@@ -24,11 +31,23 @@ const Hero = () => {
           Finderis
         </h1>
         
-        <p className="text-xl md:text-2xl text-[#24465e] mb-4 animate-fade-in font-medium">
+        <p className="text-xl md:text-2xl text-[#1f3d52] mb-6 animate-fade-in font-semibold">
           Rask meilę, draugų ir bendraminčių
         </p>
+
+        <div className="mb-8 flex flex-wrap justify-center gap-2 animate-fade-in">
+          <span className="rounded-full border border-[#2D526B]/20 bg-white/45 px-3 py-1 text-sm font-semibold text-[#1f3d52] backdrop-blur-sm">
+            Meilė
+          </span>
+          <span className="rounded-full border border-[#FA5B3B]/30 bg-[#FA5B3B]/15 px-3 py-1 text-sm font-semibold text-[#8c3422]">
+            Draugystė
+          </span>
+          <span className="rounded-full border border-[#34C759]/30 bg-[#34C759]/16 px-3 py-1 text-sm font-semibold text-[#1d7c38]">
+            Bendraminčiai
+          </span>
+        </div>
         
-        <p className="text-lg md:text-xl text-[#1f3d52]/90 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in">
+        <p className="text-lg md:text-xl text-[#24465e] mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in">
           Išmani pažinčių ir bendravimo programėlė, kuri padeda atrasti meilę, naujus draugus ir žmones su panašiais pomėgiais.
           Saugus, paprastas ir veiksmingas būdas kurti tikrus ryšius.
         </p>
