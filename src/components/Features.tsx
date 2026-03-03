@@ -6,13 +6,13 @@ const Features = () => {
     {
       icon: <Sparkles className="h-8 w-8" />,
       title: "Bendri interesai",
-      description: "Atraskite žmones, su kuriais jus sieja panašūs pomėgiai, vertybės ir gyvenimo tempas.",
+      description: "Atraskite lietuvius visame pasaulyje, su kuriais jus sieja panašūs pomėgiai, vertybės ir gyvenimo tempas.",
       iconBgClass: "bg-gradient-to-br from-[#2D526B]/20 to-[#FA5B3B]/24"
     },
     {
       icon: <MapPin className="h-8 w-8" />,
       title: "Vietinis radimas",
-      description: "Raskite žmones savo aplinkoje. Susitikite kavinėje, parke ar jūsų mėgstamoje vietoje.",
+      description: "Nesvarbu, kur gyvenate - raskite lietuvius savo aplinkoje. Susitikite kavinėje, parke ar jūsų mėgstamoje vietoje.",
       iconBgClass: "bg-gradient-to-br from-[#34C759]/24 to-[#93B9D2]/28"
     },
     {
@@ -37,7 +37,7 @@ const Features = () => {
             Kodėl pasirinkti Finderį?
           </h2>
           <p className="text-xl text-[#24465e] max-w-2xl mx-auto">
-            Sukūrėme išmanią patirtį, kuri padės rasti meilę, draugų ir bendraminčių
+            Sukūrėme patirtį lietuviams visame pasaulyje, kuri padės rasti meilę, draugų ir bendraminčių
           </p>
         </div>
         

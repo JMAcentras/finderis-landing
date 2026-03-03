@@ -28,7 +28,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-[#1f3d52] mb-6 animate-fade-in font-semibold">
-          Rask meilę, draugų ir bendraminčių
+          Susipažink su lietuviais visame pasaulyje
         </p>
 
         <div className="mb-8 flex flex-wrap justify-center gap-2 animate-fade-in">
@@ -44,8 +44,8 @@ const Hero = () => {
         </div>
         
         <p className="text-lg md:text-xl text-[#24465e] mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in">
-          Išmani pažinčių ir bendravimo programėlė, kuri padeda atrasti meilę, naujus draugus ir žmones su panašiais pomėgiais.
-          Saugus, paprastas ir veiksmingas būdas kurti tikrus ryšius.
+          Finderis skirtas lietuviams visame pasaulyje susipažinti, bendrauti ir kurti tikrus ryšius.
+          Rask meilę, draugų ir bendraminčių saugiu, paprastu ir veiksmingu būdu.
         </p>
         
         {/* Mygtukai su atnaujintomis spalvomis */}

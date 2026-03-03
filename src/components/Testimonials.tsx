@@ -35,7 +35,7 @@ const Testimonials = () => {
             Mūsų sėkmės istorijos
           </h2>
           <p className="text-xl text-[#24465e] max-w-2xl mx-auto">
-            Tūkstančiai žmonių jau rado savo laimę su Finderiu
+            Tūkstančiai lietuvių visame pasaulyje jau rado savo laimę su Finderiu
           </p>
         </div>
         

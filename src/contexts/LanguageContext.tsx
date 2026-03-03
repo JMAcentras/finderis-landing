@@ -23,7 +23,7 @@ const translations = {
     support: 'Pagalba ir kontaktai',
     
     // Footer
-    footerDescription: 'Rask meilę, draugų ir bendraminčių su išmaniąja programėle, kuri jungia žmones ir kuria tikrus ryšius.',
+    footerDescription: 'Finderis skirtas lietuviams visame pasaulyje - čia galite rasti meilę, draugų ir bendraminčių bei kurti tikrus ryšius.',
     allRightsReserved: 'Visos teisės saugomos.',
     followUs: 'Sekite mus',
     
@@ -54,7 +54,7 @@ const translations = {
     support: 'Support & Contact',
     
     // Footer
-    footerDescription: 'Find love, friends, and like-minded people with our smart app that connects people and builds genuine relationships.',
+    footerDescription: 'Finderis is built for Lithuanians worldwide to find love, friends, and like-minded people, and to build genuine relationships.',
     allRightsReserved: 'All rights reserved.',
     followUs: 'Follow us',
     
