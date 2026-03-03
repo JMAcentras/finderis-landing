@@ -37,7 +37,7 @@ const Features = () => {
             Kodėl pasirinkti Finderį?
           </h2>
           <p className="text-xl text-[#24465e] max-w-2xl mx-auto">
-            Sukūrėme patirtį lietuviams visame pasaulyje, kuri padės rasti meilę, draugų ir bendraminčių
+            Sukūrėme programėlę lietuviams visame pasaulyje, kuri padės rasti meilę, draugų ir bendraminčių
           </p>
         </div>
         
