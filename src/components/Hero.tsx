@@ -5,13 +5,6 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
-      {/* Atnaujintas fonas su logotipo spalvomis */}
-      <div className="absolute inset-0 bg-gradient-to-br from-teal-50/50 via-orange-50/30 to-green-50/40"></div>
-      <div className="absolute top-20 left-10 w-32 h-32 bg-orange-200/30 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-20 right-10 w-40 h-40 bg-teal-200/25 rounded-full blur-3xl"></div>
-      <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-green-200/30 rounded-full blur-2xl"></div>
-      <div className="absolute top-1/3 right-1/4 w-28 h-28 bg-teal-300/20 rounded-full blur-3xl"></div>
-      
       <div className="relative z-10 text-center max-w-4xl mx-auto">
         {/* Logo */}
         <div className="mb-8 flex justify-center">
