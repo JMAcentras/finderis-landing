@@ -5,7 +5,7 @@ const Features = () => {
   const features = [
     {
       icon: <Sparkles className="h-8 w-8" />,
-      title: "Bendri interesai",
+      title: "Pažintys lietuviams",
       description: "Atraskite lietuvius visame pasaulyje, su kuriais jus sieja panašūs pomėgiai, vertybės ir gyvenimo tempas.",
       iconBgClass: "bg-gradient-to-br from-[#2D526B]/20 to-[#FA5B3B]/24"
     },
@@ -23,8 +23,8 @@ const Features = () => {
     },
     {
       icon: <Heart className="h-8 w-8" />,
-      title: "Tikri ryšiai",
-      description: "Ne tik paviršutiniški susitikimai - mes padedame rasti ilgalaikius, prasmingus santykius.",
+      title: "Pažinčių skelbimai",
+      description: "Ne tik paviršutiniška paieška pagal foto - savo skelbime parašyk kas tu ir ko ieškai.",
       iconBgClass: "bg-gradient-to-br from-[#FA5B3B]/22 to-[#34C759]/24"
     }
   ];
