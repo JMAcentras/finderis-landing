@@ -102,7 +102,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-[#4c6d84] mt-8 pt-8 text-center text-[#d7e8f2]">
-          <p>&copy; 2025 Finderis. {t('allRightsReserved')}</p>
+          <p>&copy; 2026 Finderis. {t('allRightsReserved')}</p>
           
           {/* Dekoratyvinis elementas su logotipo spalvomis */}
           <div className="mt-4 flex justify-center space-x-2">

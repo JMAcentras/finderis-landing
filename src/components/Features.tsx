@@ -5,14 +5,14 @@ const Features = () => {
   const features = [
     {
       icon: <Sparkles className="h-8 w-8" />,
-      title: "Išmanus derinimas",
-      description: "Pažangūs algoritmai analizuoja jūsų pomėgius ir siūlo žmones, su kuriais jus sieja bendri interesai ir vertybės.",
+      title: "Bendri interesai",
+      description: "Atraskite žmones, su kuriais jus sieja panašūs pomėgiai, vertybės ir gyvenimo tempas.",
       iconBgClass: "bg-gradient-to-br from-[#2D526B]/20 to-[#FA5B3B]/24"
     },
     {
       icon: <MapPin className="h-8 w-8" />,
       title: "Vietinis radimas",
-      description: "Raskite žmones savo aplinkoje. Susitinkite kavinėje, parke ar jūsų mėgstamoje vietoje.",
+      description: "Raskite žmones savo aplinkoje. Susitikite kavinėje, parke ar jūsų mėgstamoje vietoje.",
       iconBgClass: "bg-gradient-to-br from-[#34C759]/24 to-[#93B9D2]/28"
     },
     {

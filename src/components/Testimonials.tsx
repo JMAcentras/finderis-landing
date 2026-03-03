@@ -22,7 +22,7 @@ const Testimonials = () => {
     {
       name: "Gabija L.",
       age: 25,
-      text: "Finderis tikrai veikia! Puikus algoritmas ir saugus bendravimas. Čia sutikau žmonių, su kuriais mus jungia tie patys pomėgiai ir vertybės.",
+      text: "Finderis tikrai veikia! Saugus bendravimas ir aiškios pažinčių taisyklės padėjo lengvai rasti žmonių, su kuriais mus jungia tie patys pomėgiai ir vertybės.",
       location: "Klaipėda"
     }
   ];

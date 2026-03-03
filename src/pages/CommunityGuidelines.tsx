@@ -129,7 +129,7 @@ All reports will be investigated within 24 hours.`
         
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-4 brand-title-gradient">{t('communityGuidelinesTitle')}</h1>
-          <p className="text-[#24465e]/85 font-medium">{t('lastUpdated')}: 2025 m. sausio 1 d.</p>
+          <p className="text-[#24465e]/85 font-medium">{t('lastUpdated')}: 2026 m. sausio 1 d.</p>
         </div>
         
         <div className="brand-legal-card p-8 md:p-12 space-y-8">
