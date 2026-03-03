@@ -12,7 +12,7 @@ const Features = () => {
     {
       icon: <MapPin className="h-8 w-8" />,
       title: "Vietinis radimas",
-      description: "Raskite žmones savo aplinkoje. Susitinkite kafeinėje, parke ar jūsų mėgstamoje vietoje.",
+      description: "Raskite žmones savo aplinkoje. Susitinkite kavinėje, parke ar jūsų mėgstamoje vietoje.",
       iconBgClass: "bg-gradient-to-br from-[#34C759]/24 to-[#93B9D2]/28"
     },
     {
