@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Apple, Play } from "lucide-react";
+import { Play } from "lucide-react";
 
 const Hero = () => {
 
@@ -16,7 +16,7 @@ const Hero = () => {
         {/* Logo */}
         <div className="mb-8 flex justify-center">
           <img 
-            src="/logo.png" 
+            src="/logo.svg" 
             alt="Finderis logo" 
             className="w-24 h-24 md:w-32 md:h-32 drop-shadow-lg"
           />
@@ -38,14 +38,6 @@ const Hero = () => {
         
         {/* Mygtukai su atnaujintomis spalvomis */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
-          <Button 
-            size="lg" 
-            className="bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-          >
-            <Apple className="mr-3 h-6 w-6" />
-            App Store
-          </Button>
-          
           <Button 
             size="lg" 
             className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"

@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="lg:max-w-md">
             <div className="flex items-center mb-4">
               <img 
-                src="/logo.png" 
+                src="/logo.svg" 
                 alt="Finderis logo" 
                 className="w-8 h-8 mr-3"
               />
