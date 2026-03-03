@@ -18,7 +18,7 @@ const Features = () => {
     {
       icon: <Shield className="h-8 w-8" />,
       title: "Profilio saugumas",
-      description: "Jūsų saugumas mums svarbiausias. Tikrinami profiliai, patikimi ryšiai ir apsauga nuo sukčiavimo.",
+      description: "Jūsų saugumas mums svarbiausias. Tikrinami profiliai, DI analitika ir apsauga nuo sukčiavimo.",
       iconBgClass: "bg-gradient-to-br from-[#FFCC00]/26 to-[#FA5B3B]/24"
     },
     {
