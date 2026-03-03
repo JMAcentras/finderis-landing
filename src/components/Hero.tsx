@@ -13,10 +13,6 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 text-center max-w-4xl mx-auto py-10">
-        <div className="inline-flex items-center gap-2 rounded-full border border-[#2D526B]/25 bg-white/35 px-4 py-2 text-sm font-semibold text-[#1f3d52] backdrop-blur-sm mb-8">
-          Finderis
-        </div>
-
         {/* Logo */}
         <div className="mb-6 flex justify-center">
           <img 
@@ -36,13 +32,13 @@ const Hero = () => {
         </p>
 
         <div className="mb-8 flex flex-wrap justify-center gap-2 animate-fade-in">
-          <span className="rounded-full border border-[#2D526B]/20 bg-white/45 px-3 py-1 text-sm font-semibold text-[#1f3d52] backdrop-blur-sm">
+          <span className="rounded-full border border-[#FA5B3B]/35 bg-[#FA5B3B]/18 px-3 py-1 text-sm font-semibold text-[#8c3422]">
             Meilė
           </span>
-          <span className="rounded-full border border-[#FA5B3B]/30 bg-[#FA5B3B]/15 px-3 py-1 text-sm font-semibold text-[#8c3422]">
+          <span className="rounded-full border border-[#34C759]/35 bg-[#34C759]/18 px-3 py-1 text-sm font-semibold text-[#1d7c38]">
             Draugystė
           </span>
-          <span className="rounded-full border border-[#34C759]/30 bg-[#34C759]/16 px-3 py-1 text-sm font-semibold text-[#1d7c38]">
+          <span className="rounded-full border border-[#FFCC00]/40 bg-[#FFCC00]/20 px-3 py-1 text-sm font-semibold text-[#6f5700]">
             Bendraminčiai
           </span>
         </div>

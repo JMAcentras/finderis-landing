@@ -34,7 +34,7 @@ const Features = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 brand-title-gradient">
-            Kodėl pasirinkti Finderis?
+            Kodėl pasirinkti Finderį?
           </h2>
           <p className="text-xl text-[#24465e] max-w-2xl mx-auto">
             Sukūrėme išmanią patirtį, kuri padės rasti meilę, draugų ir bendraminčių
