@@ -2,94 +2,95 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Design tokens from Finderis Android branding (logo + splash background). */
 
 @layer base {
   :root {
     --background: 204 41% 70%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 204 36% 18%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 204 36% 18%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 204 36% 18%;
 
-    /* Atnaujinta pagrindinė spalva - teal iš logotipo */
-    --primary: 183 25% 35%;
-    --primary-foreground: 210 40% 98%;
+    /* #2D526B */
+    --primary: 204 41% 30%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 183 25% 35%;
+    --secondary: 204 50% 92%;
+    --secondary-foreground: 204 41% 26%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 205 32% 92%;
+    --muted-foreground: 204 25% 33%;
 
-    /* Akcentinė spalva - oranžinė iš logotipo */
-    --accent: 15 86% 57%;
-    --accent-foreground: 210 40% 98%;
+    /* #FA5B3B */
+    --accent: 10 95% 61%;
+    --accent-foreground: 204 36% 18%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 72% 52%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 183 25% 35%;
+    --border: 204 35% 78%;
+    --input: 204 35% 78%;
+    --ring: 204 41% 30%;
 
     --radius: 0.5rem;
 
-    /* Sidebar spalvos su teal akcentu */
     --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 183 25% 35%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 183 15% 92%;
-    --sidebar-accent-foreground: 183 25% 35%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 183 25% 35%;
+    --sidebar-foreground: 204 30% 22%;
+    --sidebar-primary: 204 41% 30%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 204 45% 90%;
+    --sidebar-accent-foreground: 204 41% 24%;
+    --sidebar-border: 204 25% 84%;
+    --sidebar-ring: 204 41% 30%;
+
+    --brand-sky: 204 41% 70%;
+    --brand-blue: 204 41% 30%;
+    --brand-orange: 10 95% 61%;
+    --brand-green: 135 59% 49%;
+    --brand-yellow: 48 100% 50%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 204 30% 14%;
+    --foreground: 204 36% 95%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 204 28% 17%;
+    --card-foreground: 204 36% 95%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 204 28% 17%;
+    --popover-foreground: 204 36% 95%;
 
-    /* Tamsus režimas su teal akcentu */
-    --primary: 183 35% 75%;
-    --primary-foreground: 183 25% 15%;
+    --primary: 204 52% 72%;
+    --primary-foreground: 204 34% 14%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 204 24% 24%;
+    --secondary-foreground: 204 36% 95%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 204 24% 24%;
+    --muted-foreground: 204 24% 74%;
 
-    /* Tamsus oranžinis akcentas */
-    --accent: 15 70% 45%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 10 84% 63%;
+    --accent-foreground: 204 34% 14%;
 
-    --destructive: 0 62.8% 30.6%;
+    --destructive: 0 65% 42%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 183 35% 75%;
-    
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 183 35% 75%;
-    --sidebar-primary-foreground: 183 25% 15%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 183 35% 75%;
+    --border: 204 22% 24%;
+    --input: 204 22% 24%;
+    --ring: 204 52% 72%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 204 30% 22%;
+    --sidebar-primary: 204 52% 72%;
+    --sidebar-primary-foreground: 204 34% 14%;
+    --sidebar-accent: 204 20% 24%;
+    --sidebar-accent-foreground: 204 36% 95%;
+    --sidebar-border: 204 20% 24%;
+    --sidebar-ring: 204 52% 72%;
   }
 }
 
@@ -103,65 +104,79 @@ All colors MUST be HSL.
   }
 }
 
-/* Hero komponento atnaujintos spalvos */
-.hero-gradient {
-  background: linear-gradient(135deg, 
-    hsl(183, 25%, 35%) 0%,    /* Teal */
-    hsl(15, 86%, 57%) 50%,    /* Oranžinė */
-    hsl(142, 70%, 45%) 100%   /* Žalia */
-  );
-}
+@layer components {
+  .brand-page-bg {
+    background-color: #93b9d2;
+    background-image:
+      radial-gradient(circle at 12% 18%, rgba(250, 91, 59, 0.22) 0%, rgba(250, 91, 59, 0) 36%),
+      radial-gradient(circle at 84% 18%, rgba(255, 204, 0, 0.24) 0%, rgba(255, 204, 0, 0) 34%),
+      radial-gradient(circle at 80% 82%, rgba(52, 199, 89, 0.2) 0%, rgba(52, 199, 89, 0) 38%),
+      linear-gradient(160deg, #a3c4d9 0%, #93b9d2 44%, #b6d0e1 100%);
+  }
 
-.text-gradient {
-  background: linear-gradient(to right, 
-    hsl(183, 25%, 35%),       /* Teal */
-    hsl(15, 86%, 57%),        /* Oranžinė */
-    hsl(142, 70%, 45%)        /* Žalia */
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  .brand-panel {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(45, 82, 107, 0.16);
+    box-shadow: 0 20px 44px -24px rgba(45, 82, 107, 0.55);
+    backdrop-filter: blur(6px);
+  }
 
-/* Mygtukai su logotipo spalvomis */
-.btn-teal {
-  background: linear-gradient(to right, 
-    hsl(183, 25%, 35%), 
-    hsl(183, 25%, 30%)
-  );
-}
+  .brand-title-gradient {
+    background-image: linear-gradient(90deg, #2d526b 0%, #fa5b3b 40%, #34c759 74%, #ffcc00 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
 
-.btn-teal:hover {
-  background: linear-gradient(to right, 
-    hsl(183, 25%, 30%), 
-    hsl(183, 25%, 25%)
-  );
-}
+  .brand-back-link {
+    color: #24465e;
+    transition: color 0.2s ease;
+  }
 
-.btn-orange {
-  background: linear-gradient(to right, 
-    hsl(15, 86%, 57%), 
-    hsl(15, 86%, 52%)
-  );
-}
+  .brand-back-link:hover {
+    color: #163246;
+  }
 
-.btn-orange:hover {
-  background: linear-gradient(to right, 
-    hsl(15, 86%, 52%), 
-    hsl(15, 86%, 47%)
-  );
-}
+  .brand-legal-page {
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    background-color: #93b9d2;
+    background-image:
+      radial-gradient(circle at 12% 18%, rgba(250, 91, 59, 0.2) 0%, rgba(250, 91, 59, 0) 34%),
+      radial-gradient(circle at 84% 18%, rgba(255, 204, 0, 0.2) 0%, rgba(255, 204, 0, 0) 34%),
+      radial-gradient(circle at 80% 82%, rgba(52, 199, 89, 0.18) 0%, rgba(52, 199, 89, 0) 38%),
+      linear-gradient(160deg, #a3c4d9 0%, #93b9d2 44%, #b6d0e1 100%);
+  }
 
-.btn-green {
-  background: linear-gradient(to right, 
-    hsl(142, 70%, 45%), 
-    hsl(142, 70%, 40%)
-  );
-}
+  .brand-legal-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(45, 82, 107, 0.16);
+    border-radius: 1rem;
+    box-shadow: 0 20px 44px -24px rgba(45, 82, 107, 0.55);
+    backdrop-filter: blur(6px);
+  }
 
-.btn-green:hover {
-  background: linear-gradient(to right, 
-    hsl(142, 70%, 40%), 
-    hsl(142, 70%, 35%)
-  );
+  .brand-section-title {
+    color: #1f3d52;
+  }
+
+  .brand-info-callout {
+    background: linear-gradient(135deg, rgba(45, 82, 107, 0.12), rgba(52, 199, 89, 0.14));
+    border: 1px solid rgba(45, 82, 107, 0.24);
+    border-radius: 0.75rem;
+  }
+
+  .brand-info-text {
+    color: #1f3d52;
+  }
+
+  .brand-alert-callout {
+    background: linear-gradient(135deg, rgba(250, 91, 59, 0.14), rgba(255, 204, 0, 0.16));
+    border: 1px solid rgba(250, 91, 59, 0.36);
+    border-radius: 0.75rem;
+  }
+
+  .brand-alert-text {
+    color: #5f2e24;
+  }
 }

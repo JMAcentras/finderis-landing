@@ -1,5 +1,11 @@
 
 const Testimonials = () => {
+  const avatarGradients = [
+    "bg-gradient-to-br from-[#2D526B] to-[#FA5B3B]",
+    "bg-gradient-to-br from-[#2D526B] to-[#34C759]",
+    "bg-gradient-to-br from-[#FA5B3B] to-[#2D526B]"
+  ];
+
   const testimonials = [
     {
       name: "Aušra M.",
@@ -25,10 +31,10 @@ const Testimonials = () => {
     <section className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-orange-600 to-slate-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 brand-title-gradient">
             Mūsų sėkmės istorijos
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-[#24465e] max-w-2xl mx-auto">
             Tūkstančiai žmonių jau rado savo laimę su Finderis
           </p>
         </div>
@@ -37,25 +43,25 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100"
+              className="group brand-panel p-8 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
             >
               <div className="mb-6">
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-slate-500 rounded-full flex items-center justify-center text-white font-bold text-lg">
+                  <div className={`w-12 h-12 ${avatarGradients[index % avatarGradients.length]} rounded-full flex items-center justify-center text-white font-bold text-lg`}>
                     {testimonial.name.charAt(0)}
                   </div>
                   <div className="ml-4">
-                    <h4 className="font-bold text-gray-800">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-500">{testimonial.age} m., {testimonial.location}</p>
+                    <h4 className="font-bold text-[#1f3d52]">{testimonial.name}</h4>
+                    <p className="text-sm text-[#33566e]">{testimonial.age} m., {testimonial.location}</p>
                   </div>
                 </div>
               </div>
               
-              <blockquote className="text-gray-700 leading-relaxed italic">
+              <blockquote className="text-[#2a4b61] leading-relaxed italic">
                 "{testimonial.text}"
               </blockquote>
               
-              <div className="mt-6 flex text-orange-400">
+              <div className="mt-6 flex text-[#FA5B3B]">
                 {[...Array(5)].map((_, i) => (
                   <span key={i} className="text-xl">★</span>
                 ))}

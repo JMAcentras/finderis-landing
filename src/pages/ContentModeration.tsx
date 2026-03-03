@@ -132,12 +132,12 @@ const ContentModeration = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background py-12 px-4">
+    <div className="brand-legal-page">
       <div className="max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-8">
           <Link 
             to="/" 
-            className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium"
+            className="inline-flex items-center brand-back-link font-semibold"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             {t('backToHome')}
@@ -146,13 +146,13 @@ const ContentModeration = () => {
         </div>
         
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{t('contentModerationTitle')}</h1>
-          <p className="text-gray-600">{t('lastUpdated')}: 2025 m. sausio 1 d.</p>
+          <h1 className="text-4xl font-bold mb-4 brand-title-gradient">{t('contentModerationTitle')}</h1>
+          <p className="text-[#24465e]/85 font-medium">{t('lastUpdated')}: 2025 m. sausio 1 d.</p>
         </div>
         
-        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 space-y-8">
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-            <p className="text-yellow-800 leading-relaxed">
+        <div className="brand-legal-card p-8 md:p-12 space-y-8">
+          <div className="brand-info-callout p-6">
+            <p className="brand-info-text leading-relaxed">
               {language === 'lt' 
                 ? 'Mes įsipareigojame užtikrinti saugią ir malonią aplinką visiems Finderis naudotojams. Šis dokumentas atskleidžia, kaip moderuojame turinį mūsų platformoje.'
                 : 'We are committed to ensuring a safe and enjoyable environment for all Finderis users. This document discloses how we moderate content on our platform.'
@@ -162,18 +162,18 @@ const ContentModeration = () => {
 
           {content[language].sections.map((section, index) => (
             <section key={index}>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">{section.title}</h2>
-              <div className="text-gray-700 leading-relaxed whitespace-pre-line">
+              <h2 className="text-2xl font-bold brand-section-title mb-4">{section.title}</h2>
+              <div className="text-[#24465e] leading-relaxed whitespace-pre-line">
                 {section.content}
               </div>
             </section>
           ))}
 
-          <section className="bg-orange-50 border border-orange-200 rounded-lg p-6">
-            <h2 className="text-2xl font-bold text-orange-800 mb-4">
+          <section className="brand-alert-callout p-6">
+            <h2 className="text-2xl font-bold brand-alert-text mb-4">
               {language === 'lt' ? 'Kontaktai' : 'Contact'}
             </h2>
-            <p className="text-orange-700 leading-relaxed">
+            <p className="brand-alert-text leading-relaxed">
               {language === 'lt' 
                 ? 'Dėl klausimų apie turinio moderavimą: surask@antrapuse.lt'
                 : 'For questions about content moderation: surask@antrapuse.lt'

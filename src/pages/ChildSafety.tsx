@@ -98,12 +98,12 @@ We collaborate with parents to protect minors.`
   };
 
   return (
-    <div className="min-h-screen bg-background py-12 px-4">
+    <div className="brand-legal-page">
       <div className="max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-8">
           <Link 
             to="/" 
-            className="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium"
+            className="inline-flex items-center brand-back-link font-semibold"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             {t('backToHome')}
@@ -112,25 +112,25 @@ We collaborate with parents to protect minors.`
         </div>
         
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">{t('childSafetyTitle')}</h1>
-          <p className="text-gray-600">{t('lastUpdated')}: 2025 m. sausio 1 d.</p>
+          <h1 className="text-4xl font-bold mb-4 brand-title-gradient">{t('childSafetyTitle')}</h1>
+          <p className="text-[#24465e]/85 font-medium">{t('lastUpdated')}: 2025 m. sausio 1 d.</p>
         </div>
         
-        <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 space-y-8">
+        <div className="brand-legal-card p-8 md:p-12 space-y-8">
           {content[language].sections.map((section, index) => (
             <section key={index}>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">{section.title}</h2>
-              <div className="text-gray-700 leading-relaxed whitespace-pre-line">
+              <h2 className="text-2xl font-bold brand-section-title mb-4">{section.title}</h2>
+              <div className="text-[#24465e] leading-relaxed whitespace-pre-line">
                 {section.content}
               </div>
             </section>
           ))}
           
-          <section className="bg-red-50 border border-red-200 rounded-lg p-6">
-            <h2 className="text-2xl font-bold text-red-800 mb-4">
+          <section className="brand-alert-callout p-6">
+            <h2 className="text-2xl font-bold brand-alert-text mb-4">
               {language === 'lt' ? 'Skubūs pranešimai' : 'Emergency Reports'}
             </h2>
-            <p className="text-red-700 leading-relaxed">
+            <p className="brand-alert-text leading-relaxed">
               {language === 'lt' 
                 ? 'Jei manote, kad vaikas yra pavojuje, nedelsiant kreipkitės į vietines skubios pagalbos ir policijos tarnybas. Mūsų komanda taip pat prieinama 24/7 adresu surask@antrapuse.lt ir telefonu +37069977779.'
                 : 'If you believe a child is in immediate danger, contact local emergency services or police immediately. Our team is also available 24/7 at surask@antrapuse.lt and phone +37069977779'
